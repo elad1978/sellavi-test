@@ -11,7 +11,10 @@ import { Badge } from "@mui/material";
 export default function TestComp() {
   //rgba(8, 147, 24, 0.7)
   return (
-    <Card sx={{ maxWidth: 700 }}>
+    <Card
+      variant="outlined"
+      sx={{ maxWidth: 700, bgcolor: "rgba(105, 111, 112, 0.7)" }}
+    >
       <Box sx={{ p: 2 }}>
         <Typography
           sx={{ textAlign: "center" }}
